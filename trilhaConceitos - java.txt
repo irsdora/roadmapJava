@@ -1,0 +1,65 @@
+# **Conceitos da Linguagem Java.**
+
+Link: 
+
+[Linguagem Java: Os conceitos da linguagem Java](https://www.devmedia.com.br/conceitos-da-linguagem-java/5341)
+
+### POO
+
+Programação Orientada a Objetos. Este tipo de programação trata os elementos da linguagem de maneira semelhante aos objetos reais.
+
+### Packages
+
+É semelhante ao conceito de biblioteca de funções, sendo que um package (pacote) é um conjunto de classes, que ficam num diretório com o mesmo nome do pacote. O package default é o java.lang.*; que é adicionado a todo arquivo java mesmo que o programador não o referencie. O .* diz ao java para incluir todas as classes do pacote.
+
+### Classes
+
+É um conjunto de objetos com características comuns. Uma classe é como um modelo para a criação de objetos, que tem as mesmas características da classe à qual pertence.
+
+### Objetos
+
+É um elemento de uma classe. Temos uma classe "gatos" que é formada pelos objetos "gato". Todos os objetos tem em comum o fato de serem gatos (mesma espécie), mas podem ter características diferentes entre si. Objetos tem variáveis e métodos como também classes.
+
+### Instância
+
+Uma instância de uma classe é um novo objeto criado dessa classe, com o operador new. Instanciar uma classe é criar um novo objeto do mesmo tipo dessa classe. Uma classe somente poderá ser utilizada após ser instanciada.
+
+### Métodos
+
+Os métodos representam os estados e ações dos objetos e classes.
+
+### Variáveis
+
+As variáveis e constantes representam as características dos objetos.
+
+### Packages
+
+Classes - Objetos - Métodos e variáveis.
+
+### Interface
+
+É a declaração de um conjunto de constantes e métodos sem qualquer implementação, usando a palavra implements. É o conjunto de requisições que um objeto pode atender.
+
+### Superclasse
+
+Todas as classes são criadas tendo outra como base. A classe que gerou a outra é chamada de superclasse. E fazemos referência à supercasse de uma classe usando a palavra extends. A classe gerada é chamada de subclasse. Toda classe tem uma subclasse. Quando não declaramos explicitamente a superclasse a super default é a object.
+
+### Construtores
+
+São usados para inicializar objetos. É o método que tem o mesmo nome da sua classe. Não pode ter um tipo de retorno e é chamado pelo operador new.
+
+### Polimorfismo
+
+É a capacidade de um método executar a ação adequada dependendo do tipo de objeto.
+
+### Threads
+
+São fluxos de execução paralelos, executando cada um tarefas diferentes. Em máquinas com dois ou mais processadores a execução pode ser simultânea e em máquinas com um único a execução será simulada, dividindo o tempo de processamento.
+
+### Herança
+
+Quando a subclasse herda as características da superclasse. Denota especialização.
+
+### Encapsulamento
+
+É o empacotamento (encapsulamento) de variáveis e métodos, ocultando a implementação do usuário. Representa reutilização, segurança e facilidade de manutenção.
